@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="">Fullname</label>
+        <input type="text" minlength="5" maxlength="15" placeholder="fullname"/>
+        <br/>
+
+        <label for="">Phone Number</label>
+        <input type="number" placeholder="+234812345678" required =/>
+        <br/>
+
+        <label for="">Amount</label>
+        <input value="3500" type="number" min="2000" max="1000000" readonly required />
+        <br/>
+
+        <label for="">Email address</label>
+        <input type="mail" placeholder="abc@mail.com"/>
+        <br/>
+
+        <input type="date"/>
+        <br/>
+
+        <input type="time"/>
+        <br/>
+
+        <input type="color"/>
+        <br/>
+
+    <!-- radio buttons need to have the same name attribute but different value attribute -->
+        <label for="">Gender</label>
+        <br/>
+        <input type="radio" name="gender" value="Male"/> Male
+        <input type="radio" name="gender" value="Female"/> Female
+        <br/>
+
+        <!-- checkboxes need to have different name attribute but different value attribute. Use case-choosing from a list of toppings for my icecream -->
+
+        <label for="">Toppings</label>
+        <br/>
+        <input type="checkbox" name="hazelnuts" value="Hazelnuts"/> Hazelnuts
+        <input type="checkbox" name="wafers" value="Wafers"/> Wafers
+        <br/>
+
+        <!-- dropdowns require the select and option tag-->
+        <label for="">Flavours</label>
+        <select name="" id="">
+            <option value="Strawberry">Strawberry</option>
+            <option value="Vanilla">Vanilla</option>
+            <option value="Chocolate">Chocolate</option>
+        </select>
+
+        <br/><br/>
+        <input type="submit" value="Done" style="background-color:green"/>
+        <!-- reset form -->
+        <input type="reset" value="Start over" style="background-color:red"/>
+    </form>
+
+    <!-- use # when the form is not going to be submitted outside the page
+    form tag takes 2 properties, 1. action(a link to where the form will be submitted) 2. Method; POST or GET, ect  
+    form elements; input
+
+    lock form field content with readonly. This has to be done with the value attribute
+    -->
+</body>
+</html>
