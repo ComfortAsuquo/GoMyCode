@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Portfolio.css">
+</head>
+<body>
+    <h3 class="formTop">Hire Me!</h3>
+    <h4 id="welcome">Hi there! Let's ensure that I am the best match for you.</h4>
+    <form action="contactMe">
+        <fieldset>
+            <div class="form">
+                <label for="Name of company" id="companyName"><b>Company Name</b></label><input type="text"><br>
+                
+
+                <label for="company email" id="email"><b>Company email</b></label>
+                <input type="email"><br>
+
+                <label for="Employment Type" id="EmploymentType"><b>Employment Type</b></label>
+                <select name="" id="select">
+                    <option value="Contract">Contract</option>
+                    <option value="fullTime">Full Time</option>
+                    <option value="Internship">Internship</option>
+                </select><br>
+
+                <p class="p"><b>If contract, kindly state how long</b></p>
+
+                <div class="contract">
+                    <input type="radio" name="radio" id="">
+                        <label for="">3 months</label>
+
+                    <input type="radio" name="radio" id="">
+                        <label for="">6 months</label>
+
+                    <input type="radio" name="radio" id="">
+                        <label for="">1 year</label><br><br>
+                </div>
+                <p class="p"><b>Select contract start and end date</b></p>
+                <div>
+                    <label for="">From</label>
+                    <input type="date">
+
+                    <label for="">To</label>
+                    <input type="date">
+                </div><br>
+                
+                <div class="tools">
+
+                   <b><p class="p"> Please select tools used:</p></b>
+                    
+                    <input type="checkbox" name="Selenium-Java">
+                    <label for="Selenium Java">Selenium Java</label>
+
+                    
+                    <input type="checkbox" name="Cypress Javascript">
+                    <label for="Cypress Javascript">Cypress Javascript</label>
+
+                    
+                    <input type="checkbox" name="GitHub">
+                    <label for="GitHub">GitHub</label>
+
+                   
+                    <input type="checkbox" name="Appium">
+                    <label for="Appium">Appium</label>
+
+                    
+                    <input type="checkbox" name="Postman">
+                    <label for="Postman">Postman</label><br><br>
+                </div>
+                <input type="button" onclick="alert('Thanks for filling out, will review and revert')" value="Submit" class="submit">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

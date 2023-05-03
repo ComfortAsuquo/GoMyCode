@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tryouts</title>
+    <link rel="stylesheet" href="tryout.css">
+</head>
+<body>
+<div>
+    <nav>
+        <p><a href="#home" class="links">Home</a></p>
+        <p><a href="#about" class="links" >About</a></p>
+        <p><a href="#contact-us" class="links">Contact Us</a></p>
+        <p><a href="#careers" class="links">Careers</a></p>
+        <p><a href="#instructions" class="links">Instruction</a></p>
+        <p><a href="#payment" class="links">Payment</a></p>
+        
+    </nav>
+    <h1 class="headerText">HTML WORKSHOP</h1>
+
+    <img src="/images/html5.png" alt="htmlLogo"/>
+    
+    <div>
+
+        <audio preload="auto" controls id="audio">
+            <source src="/AudioVisual/test.mp3.aac" type="audio/mp3">
+            the psalm
+        </audio>
+        <br>
+
+
+        <video height= "200px" width= "300px" autoplay controls id="video">
+            <source src="/AudioVisual/testvideo.mp4" type="video/mp4">
+            soothing site
+        </video>
+        <br>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/salY_Sm6mv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="iframe"></iframe>
+        
+    </div>
+    
+        
+
+   
+    <section id="about">
+        <!-- unordered lists -->
+        <h1>Unordered lists</h1>
+        <h2>Web languages we'll be considering</h2>
+            <ul>
+                <li>Hyper text markup Language</li>
+                <li>Cascading Style Sheet</li>
+                <li>JavaScript</li>
+            </ul>
+        <br>
+
+        <!-- using other bullet types. add the type attribute -->
+        <h2>African dishes I love</h2>
+            <ul type="disc">
+                <li>goatmeat peppersoup</li>
+                <li>vegetable soup and fufu</li>
+                <li>ekpangkukuo</li>
+            </ul>
+        </section>
+
+    <!-- ordered lists -->
+<article id="instructions">
+    <h1>Ordered lists</h1>
+    <h2>How to make pancake</h2>
+        <ol>
+            <li>do the mix</li>
+            <li>stir the mix</li>
+            <li>grease the pan</li>
+            <li>fry the pancake</li>
+        </ol>
+
+    <h2>listing with roman numerals</h2>
+        <ol type="i">
+            <li>do the mix</li>
+            <li>stir the mix</li>
+            <li>grease the pan</li>
+            <li>fry the pancake</li>
+        </ol>
+    
+    
+    <h2>Listing with UPPERCASE alphabets</h2>
+        <ol type="A">
+            <li>do the mix</li>
+            <li>stir the mix</li>
+            <li>grease the pan</li>
+            <li>fry the pancake</li>
+        </ol>
+    <br>
+    </article>  
+<!-- Description lists -->
+<h1>Description lists</h1>
+<h2>Tools I use</h2>
+    <dl>
+        <dt>Selenium</dt>
+        <dd>UI</dd>
+
+        <dt>Cypress</dt>
+        <dd>Visual</dd>
+
+        <dt>Appium</dt>
+        <dd>Mobile</dd>
+    </dl>
+    <br>
+
+    <table border="1">
+        <tr>
+            <th>HTML</th>
+            <th>CSS</th>
+            <th>JS</th>
+        </tr>
+        <tr>
+            <td>Paragraphs</td>
+            <td>Selectors</td>
+            <td>DOM</td>
+        </tr>
+    </table>
+
+    <aside id="payment">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span><mark> illo impedit laborum distinctio adipisci sed, dolorem exercitationem voluptates, <b>omnis aperiam minima delectus et asperiores aut accusamus odio</b>, accusantium quae pariatur?</mark></span></p>
+    </aside>
+
+    <div id="contact-us" >
+        <h2>Sign up for our web development course</h2>
+        <form action="">
+            <label for="">Name</label>
+            <input type="text">
+            <br>
+
+            <label for="">Occupation</label>
+            <input type="text">
+            <br>
+
+            <label for="">Age</label>
+            <input type="date">
+            <br>
+
+            <label for="">CGPA</label>
+            <input type="number">
+            <br>
+            <label for="">Country</label>
+            <select>
+                <option value="Nigeria"></option>
+                <option value="Tunisia"></option>
+                <option value="Malaysia"></option>
+            </select>
+        </form>
+     </div>
+
+</div>
+</body>
+</html>

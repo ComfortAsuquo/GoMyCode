@@ -1,0 +1,164 @@
+.fb{
+    color: blue;
+}
+.connect{
+    font-weight: 100;
+}
+.fbbody{
+    background-color: #F0F2F5;
+    display: flex;
+    gap: 150px;
+    margin-left: 180px;
+    margin-top: 90px;
+}
+.form{
+    background-color: white;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+    margin-top: 30px; 
+}
+
+.formcontent{
+margin-left: 3px;
+
+}
+
+.fieldset{
+    border: none;
+    border-radius: 4px;
+    display: grid;
+    gap: 1px;    
+}
+
+.login{
+    background-color: blue;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    height: 30px;
+}
+
+.forgotPassword{
+    font-size: smaller;
+    color: blue;
+    text-decoration: none;
+    margin-left: 90px;
+}
+
+.createNewAccount{
+    background-color: green;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    width: 60%;
+    height: 30px;
+    margin: 0 auto;
+
+}
+
+.input{
+    height: 30px;
+}
+
+.hr{
+    width: 100%;
+}
+
+.footer{
+    padding: 0 10px;
+}
+.fieldsetDiv{
+    border: 1px solid red;
+}
+
+.firstDiv{
+    margin-top: 30px;
+}
+
+/* google stylesheet */
+/* .body{
+    display: grid;
+    gap: 0px;
+    justify-content: center;
+    background-color: rgb(38, 38, 45);
+    margin: auto;
+    height: 400px;
+}
+.searchBox{
+    border-radius: 20px;
+    width: 400px;
+    height: 35px;
+    border-left: 50px;
+    border-bottom: 50px;
+    border-color: black;
+    color:rgb(38, 38, 45) ;
+    
+}
+.google{
+   font-size: 80px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   height: 92px;
+   color: white;
+   margin: top 0;
+   border-left: 100px;
+   margin-bottom: 0px;
+}
+.underlinks{
+    background-color:rgb(38, 38, 45) ;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+.div td{
+    color: azure;
+}
+
+a:link{
+    font-size: 12px;
+}
+a:visited{
+    color: rgb(61, 61, 210);
+}
+.footers{
+    color: #F0F2F5;
+    font-size: 12px;
+}
+#hausa{
+    padding-right: 10px;
+}
+#yoruba{
+    padding: 10px;
+}
+.beforeFooter{
+    margin: auto 0;
+}
+.googlefooter{
+    margin:0px;
+} */
+.body{
+    background-color: rgba(32, 29, 29, 0.899);
+}
+.divOne{
+    text-align: center;
+}
+.google{
+    color: rgb(204, 114, 114);
+    font-size: 90px;
+}
+.table{
+    padding-left: 400px;
+}
+.searchBox{
+    height: 40px;
+    width: 500px;
+    border-radius: 30px;
+    background-color:rgba(32, 29, 29, 0.899);
+    box-shadow: none;
+    border: 0px;
+    border: 3px solid #251d1d;
+
+}
+
+input[class="searchBox"]{
+    color: rgb(188, 135, 135);
+}

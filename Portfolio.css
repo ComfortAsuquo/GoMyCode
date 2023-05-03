@@ -1,0 +1,202 @@
+nav{
+    height: 50px;
+    width: 72%;
+   display: inline-flex;
+   margin-top: 10px;
+   margin-left: 60px;
+   border-radius: 10px;
+   padding-left: 5px;
+}
+
+#name{
+    margin-top: 10px;
+    float: left;
+    background-color: rgb(39, 57, 101);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 75px;
+}
+
+.navBar{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.page{
+    
+    background-color: rgba(42, 60, 107, 0.903);
+    width: 70%;
+    border-radius: 10px;  
+    margin-left: 15%;
+}
+
+
+
+#resume{
+    text-decoration: none;
+    background-color: rgb(39, 57, 101);
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 13px;
+    padding: 5px 10px;
+    margin-right: 30px;
+    
+}
+
+h2, #description, #name, #resume{
+    color: rgb(235, 217, 193);
+
+}
+
+a:link{
+    color: rgb(235, 217, 193);
+    text-decoration: none;
+}
+
+img{
+
+    border-radius: 10px;
+
+}
+
+.trunk{
+    margin-left: 90px;
+    margin-top: 20px;
+    display: flex;
+    gap: 70px;
+   
+}
+
+.header{
+    
+    margin-top: 10px;  
+    background-color: rgb(39, 57, 101); 
+}
+
+hr{
+    color: rgb(203, 177, 143);
+    width: 30px;
+}
+
+.services{
+    text-align: center;
+    /* background-color:rgba(36, 52, 92, 0.903); */
+    /* background-color:rgba(42, 60, 107, 0.903); */
+    filter: contrast(90%);
+    color: rgb(203, 177, 143);
+}
+
+#api, #web, #manual, #analysis, #mobile, #doc{
+    border: 1px solid rgb(48, 70, 124);
+    width: 200px;
+    margin-left: 30px;
+    background-color: rgba(34, 50, 88, 0.903); 
+    border-radius: 5px;
+    color: rgb(210, 210, 232);
+}
+
+.first3{
+    display: flex;
+    /* background-color: rgba(34, 50, 88, 0.903);  */
+}
+
+.second3{
+    display: flex;
+}
+
+.testTypes{
+    margin-left: 53px;
+}
+
+h2{
+    margin-top: 30px;
+    
+}
+
+#description{
+    margin-top: 0px;
+}
+
+.table th{
+    padding: 10px; 
+}
+
+.lowerPage{
+    background-color: rgb(39, 57, 101); 
+}
+
+header{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+a:hover{
+    color: deeppink;
+}
+
+fieldset{
+    display: grid;
+    gap: 10px;
+    width: 450px;
+    margin-left: 30%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.formTop{
+    margin-left: 45%; 
+    color: aliceblue; 
+}
+
+.form{
+    display: grid;
+}
+
+body{
+    background-color: rgba(42, 60, 107, 0.903);
+}
+
+.submit{
+    width: 100px;
+    margin-left: 180px;
+    border: 0px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.submit:hover{
+    background-color: rgba(42, 60, 107, 0.903);  
+}
+
+.tools{
+    margin-top: 10px;
+}
+
+.text1{
+    width: 200px;
+}
+
+#select{
+    height: 25px;
+    border-color: rgba(42, 60, 107, 0.903); 
+    border-radius: 5px;
+}
+
+#welcome{
+    text-align: center;
+    color: aliceblue;
+}
+#companyName, #email, #EmploymentType{
+    color: rgba(42, 60, 107, 0.903);
+}
+
+.p{
+    color: rgba(42, 60, 107, 0.903); 
+}
+input:hover, select:hover{
+    border: 1.5px solid blue;
+    background-color: #eee;
+}
