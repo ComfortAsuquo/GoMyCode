@@ -5,7 +5,8 @@ nav{
    margin-top: 10px;
    margin-left: 60px;
    border-radius: 10px;
-   padding-left: 5px;
+   padding-left: 5px;text-decoration-color: aliceblue;
+
 }
 
 #name{
@@ -24,17 +25,21 @@ nav{
 
 .page{
     
-    background-color: rgba(42, 60, 107, 0.903);
+    background-color: rgb(68, 86, 128);
     width: 70%;
     border-radius: 10px;  
     margin-left: 15%;
+}
+
+.body{
+    background-color: aliceblue;
 }
 
 
 
 #resume{
     text-decoration: none;
-    background-color: rgb(39, 57, 101);
+    background-color: rgb(39, 59, 109);
     border-radius: 5px;
     color: aliceblue;
     font-size: 13px;
@@ -44,12 +49,12 @@ nav{
 }
 
 h2, #description, #name, #resume{
-    color: rgb(235, 217, 193);
+    color: aliceblue;
 
 }
 
 a:link{
-    color: rgb(235, 217, 193);
+    color: aliceblue;
     text-decoration: none;
 }
 
@@ -80,10 +85,8 @@ hr{
 
 .services{
     text-align: center;
-    /* background-color:rgba(36, 52, 92, 0.903); */
-    /* background-color:rgba(42, 60, 107, 0.903); */
     filter: contrast(90%);
-    color: rgb(203, 177, 143);
+    color: aliceblue;
 }
 
 #api, #web, #manual, #analysis, #mobile, #doc{
@@ -97,7 +100,6 @@ hr{
 
 .first3{
     display: flex;
-    /* background-color: rgba(34, 50, 88, 0.903);  */
 }
 
 .second3{
@@ -133,6 +135,15 @@ header{
 a:hover{
     color: deeppink;
 }
+
+.footer{
+    text-align: center;
+    background-color: rgb(39, 57, 101);
+    padding: 10px;
+    color: antiquewhite;
+}
+
+/* Hire Me */
 
 fieldset{
     display: grid;
