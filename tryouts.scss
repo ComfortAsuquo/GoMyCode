@@ -1,0 +1,9 @@
+//make a variable in sass by using the $ sign
+$header-height: 30px;
+
+.header{
+    height: $header-height;
+}
+.show{
+    height: $header-height;
+}
