@@ -1,0 +1,142 @@
+body{
+    
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    background-color: #fff;
+    color: #333;
+    margin-top: 30px;
+}
+
+.navItems{
+    list-style-type: none;
+    color: #8d8585;
+    font-size: 1.2em;
+}
+
+
+
+.title{
+    height: 32.99px;
+    width: 268px;
+    margin-top: 50px;
+}
+
+#pat{
+    background-color: #00ccb1;
+    border-radius: 10px; 
+    padding: 40px;
+    height: 350px;
+    width: 350px;
+}
+
+.dpdwn1{
+    background-color: #00ccb1;
+    color: white;   
+}
+
+#doc{
+    background-color: #3d83df;
+    border-radius: 10px; 
+    padding: 50px;
+    height: 350px;
+}
+
+.dpdwn2{
+    background-color: #3d83df;
+    color: white;   
+}
+
+#cli{
+    background-color: #1b2734;
+    border-radius: 10px; 
+    padding: 50px;
+    height: 350px;
+    width: fit-content;
+}
+
+.dpdwn3{
+    background-color: #1b2734;
+    color: white;   
+}
+
+.boxes{
+    gap: 40px;
+    margin-left: 30px;
+    color: #fff;
+    font-size: 21px; 
+     
+}
+
+.trunk1{
+    margin-top: 45px;
+    padding-left: 150px;
+    
+}
+
+.title{
+    font-size: 2rem;
+}
+
+#titleText{
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    letter-spacing: -0.3px;
+}
+
+#titleText1{
+    color: #8d8585;
+    font-family: Work Sans, Arial, sans-serif;
+    letter-spacing: -0.3px;
+}
+
+#leadText{
+    color: #00b39b;
+    padding-top: 20px;
+    font-family: Work Sans, Arial, sans-serif;
+}
+
+.writeup{
+    color: #8d8585;
+    line-height: 30px;
+}
+
+
+.logo{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+    row-gap: 20px;
+    column-gap: 40px;
+    margin-left: 25%;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+.txt{
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 1.625em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    width: 200px;
+}
+
+.trunk2{
+    margin-left: 150px;
+}
+
+.trunk3{
+    background-color: #d0faf4;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.section1{
+    margin-left:60px;
+}
+
+#body-content{
+    text-align: center;
+}

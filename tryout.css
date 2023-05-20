@@ -31,3 +31,82 @@ margin-top: 50px;
     margin-left: 500px;
     margin-top: 50px;
 }
+/* justify content helps us to display elements horizonatally(x- axis)
+
+align items helps us to display elements vertically(y- axis) */
+.box1{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 600px;
+    align-items: start;
+    border: 1px solid green;
+}
+    /* css position include: fixed, static, sticky, relative, absolute */
+
+.positions{
+    width: 70%;
+    height: 700px;
+    border: 2px solid orangered;
+}
+
+.static{
+    position: static;
+    border: 1px solid yellow;
+}
+
+.relative{
+    position: relative;
+    border: 1px solid rgb(136, 136, 76);
+}
+
+.fixed{
+    position: fixed;
+    border: 1px solid rgb(38, 38, 6);
+    bottom: 0;
+    right: 0;
+    width: 300px;
+}
+
+.sticky{
+    
+}
+
+
+
+
+.box2{
+    background-color: rgb(104, 211, 175);
+    width: 100px;
+    height: 100px;
+}
+
+.box3{
+    background-color:brown;
+    width: 100px;
+    height: 100px; 
+}
+
+.box4{
+    background-color:rgb(114, 29, 29);
+    width: 100px;
+    height: 100px; 
+}
+
+.box5{
+    background-color:rgb(209, 145, 145);
+    width: 100px;
+    height: 100px; 
+}
+
+.box6{
+    background-color:rgb(223, 93, 93);
+    width: 100px;
+    height: 100px; 
+}
+
+.box7{
+    background-color:rgb(215, 188, 188);
+    width: 100px;
+    height: 100px; 
+}
