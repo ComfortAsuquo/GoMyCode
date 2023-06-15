@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="main">
+        <h1>DOM Structures</h1>
+        <h2 id="text">This is some sample text to learn how the dom can select by Id</h2>
+        <h3>A sample text to see how the dom can show all the nodes within my document</h3>
+        <h3>Another H3 sample text to see how the dom can show all the nodes within my document</h3>
+        <h4 class="text2">A sample text to seehow the dom returns an array-like object of all child elements belonging to the same class using document.getElementsByClassName</h4>
+        <h4 class="text2">A second sample text to seehow the dom returns an array-like object of all child elements belonging to the same class using document.getElementsByClassName</h4>
+        <h5>A sample text to see how the dom returns elements bearing same tagname using document.getElementsByTagName()</h5>
+        <h5>Another sample text to see how the dom returns elements bearing same tagname using document.getElementsByTagName()</h5>
+
+        <button type="button" id="touch">Submit</button>
+    </div>
+
+    <div>
+        <form name="loginForm" onsubmit="return validateForm(event) ">
+            <label for="Name">Name:</label>
+            <input type="text" name="name" placeholder="example@example.com" />
+            <label for="password">Password:</label>
+            <input type="password" name="password" placeholder="*********" />
+            <button type="submit">Login</button>
+            <button type="reset">cancel</button>
+        </form>
+    </div>
+
+    <script src="/code.js"></script>
+</body>
+</html>
