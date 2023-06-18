@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Cart Checkpoint</title>
     <link rel="stylesheet" href="ShoppingCart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600&family=Sora:wght@100;200;300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="cartbody">
@@ -18,22 +21,23 @@
         <div class="itemslist">
             <div class="workdress">
                 <div class="imgcontainer1">
-                    <img src="/images/work dress.jpg" alt="Navy blue dress">
+                    <img src="/images/work dress.jpg" alt="Navy blue dress" width="50px">
+                    <button class="like">&#9825;</button>
                 </div>
-                <div class="description">
+                <div class="description" id="bluedress">
                     <h1 class="title">Navy blue dress</h1>
-                    <h3 class="size">size 4</h3>
+                    <h3 class="size">Size 4</h3>
                 </div>
 
                 <div class="counter">
                     <div class="add">+</div>
                     <div class="count">1</div>
-                    <div class="add">-</div>
+                    <div class="minus">-</div>
                 </div>
 
                 <div>
                     <div class="price">
-                        <div class="amount">$150</div>
+                        <div class="amount">150</div>
                         <div class="deleteitem">Remove from cart</div>
                     </div>
                 </div>
@@ -41,7 +45,8 @@
 
             <div class="workdress">
                 <div class="imgcontainer1">
-                    <img src="/images/yellow dress.jpg" alt="Classy yellow gown">
+                    <img src="/images/yellow dress.jpg" alt="Classy yellow gown" width="50px">
+                    <button class="like">&#9825;</button>
                 </div>
                 <div class="description">
                     <h1 class="title">Classy yellow gown</h1>
@@ -51,12 +56,12 @@
                 <div class="counter">
                     <div class="add">+</div>
                     <div class="count">1</div>
-                    <div class="add">-</div>
+                    <div class="minus">-</div>
                 </div>
 
                 <div>
                     <div class="price">
-                        <div class="amount">$70.99</div>
+                        <div class="amount">70.99</div>
                         <div class="deleteitem">Remove from cart</div>
                     </div>
                 </div>
@@ -64,22 +69,23 @@
 
             <div class="workdress">
                 <div class="imgcontainer1">
-                    <img src="/images/sequence dress.jpg" alt="Sexy sequence dress">
+                    <img src="/images/sequence dress.jpg" alt="Sexy sequence dress" width="50px">
+                    <button class="like">&#9825;</button>
                 </div>
                 <div class="description">
-                    <h1 class="title">Sexy sequence dress</h1>
+                    <h1 class="title">Sexy sequence dress </h1>
                     <h3 class="size">Size 12</h3>
                 </div>
-
+                  
                 <div class="counter">
                     <div class="add">+</div>
                     <div class="count">1</div>
-                    <div class="add">-</div>
+                    <div class="minus">-</div>
                 </div>
 
                 <div>
                     <div class="price">
-                        <div class="amount">$50.99</div>
+                        <div class="amount">50.99</div>
                         <div class="deleteitem">Remove from cart</div>
                     </div>
                 </div>
@@ -94,11 +100,12 @@
             <div class="sumup">
                 <div class="Subtotal">Total</div>
                 <div class="totalitems">3 items</div>
-                <div class="totalamount">$271.98</div>
+                <div class="totalamount">271.98</div>
                 
             </div>
             <button>Proceed to Checkout</button>
         </div>
     </div>
+    <script src="/ShoppingCart.js"></script>
 </body>
 </html>
